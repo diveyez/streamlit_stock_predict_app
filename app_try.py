@@ -22,8 +22,7 @@ period = year * 365
 
 @st.cache
 def load_data():
-    data = pd.read_csv(DATA_URL)
-    return data
+    return pd.read_csv(DATA_URL)
 	
 
 
